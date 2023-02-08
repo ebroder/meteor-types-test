@@ -45,7 +45,7 @@
         "/Users/evan/.meteor/packages/hot-module-replacement/0.5.2/web.browser/server.js"
       ],
       "meteor/react-meteor-data": [
-        "/Users/evan/.meteor/packages/react-meteor-data/2.6.1/web.browser/index.js"
+        "/Users/evan/.meteor/packages/react-meteor-data/2.6.2/web.browser/index.js"
       ]
     }
   },
