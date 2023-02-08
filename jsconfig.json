@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/local_collection_driver.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/collection.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/connection_options.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/doc_fetcher.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/mongo_driver.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/mongo_utils.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/observe_multiplex.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/oplog_observe_driver.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/oplog_tailing.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/oplog_v2_converter.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/polling_observe_driver.js",
+        "/Users/evan/.meteor/packages/mongo/1.16.4/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/evan/.meteor/packages/reactive-var/1.0.12/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/evan/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/Users/evan/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/Users/evan/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/Users/evan/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/Users/evan/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/evan/.meteor/packages/ecmascript/0.16.5/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/evan/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/Users/evan/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/evan/.meteor/packages/hot-module-replacement/0.5.2/web.browser/hot-api.js",
+        "/Users/evan/.meteor/packages/hot-module-replacement/0.5.2/web.browser/client.js",
+        "/Users/evan/.meteor/packages/hot-module-replacement/0.5.2/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/Users/evan/.meteor/packages/react-meteor-data/2.6.1/web.browser/index.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
